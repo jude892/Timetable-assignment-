@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; 
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px; 
+}
+
+th {
+    background-color: #e0e0e0;
+}
+
+td {
+    background-color: #ffffff;
+    font-size: 14px; 
+}
+
+.vertical-text {
+    writing-mode: vertical-rl; 
+    text-orientation: upright;
+    font-size: 30px; 
+}
+
+
+td.break {
+    background-color: #ffe5b4;
+    font-weight: bold; 
+    font-style: italic;
+    color: #6d4c00; 
+}
+
+td.lunch {
+    background-color: #cce5ff; 
+    font-style: italic; 
+    font-weight: bold;
+    color: #003f87; 
+}
+
+
+thead th {
+    font-size: 15px;
+    color: #000; 
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+    background-color:#d8d8d8;
+}
+tbody tr:hover {
+    background-color: #f1f1f1; 
+    transition: background-color 0.3s ease;
+}
+
+table {
+    table-layout: fixed; 
+}
+
+th, td {
+    word-wrap: break-word;
+}
+
+td.day {
+    background-color: #e0e0e0;
+    color: #000; 
+    font-weight: bold; 
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px; 
+}
+
+.css { font-size: medium;
+    font-weight: bold;
+
+}
+.tittle {
+    font-size: 20px; 
+    font-style: italic; 
+}
+th:nth-child(1), td:nth-child(1) {
+    width: 10%;
+}
+
+th:nth-child(5), td:nth-child(5), 
+th:nth-child(9), td:nth-child(9) {
+    width: 8%; 
+}
